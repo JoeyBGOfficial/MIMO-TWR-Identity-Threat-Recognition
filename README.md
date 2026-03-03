@@ -8,6 +8,9 @@
 
 **We fully trust our peer community and welcome the use of our open-source code for one-click verification, ensuring the reproducibility of the reported results in our paper.**
 
+![Stickman_3D](https://github.com/user-attachments/assets/eea5611b-01fa-492b-ba6f-479f112c37da)
+Fig. 1. MIMO TWR human identity-threat recognition.
+
 ### Basic Information:
 
 This repository is the open source code for my latest work: "MIMO Through-the-Wall Radar Identity-Threat Recognition via Multi-Channel Fusion and Riemannian Micro-Doppler Representation", submitted to IEEE TPAMI.
@@ -20,8 +23,10 @@ This repository is the open source code for my latest work: "MIMO Through-the-Wa
 
 [1] (Upon Reviewing...)
 
-![Stickman_3D](https://github.com/user-attachments/assets/eea5611b-01fa-492b-ba6f-479f112c37da)
-Fig. 1. MIMO TWR human identity-threat recognition.
-
 ## II. HOW TO REPRODUCE
+
+All source code in the repository is well-structured, extensively commented, and thoroughly debugged. With MATLAB R2025a or later installed, the scripts are designed to be executed in one click.
+
+"The 'SimH_Set' folder contains the complete pipeline for simulation modeling, data processing, feature extraction, and recognition. The 'RW_Set' folder provides the full workflow for real-world data processing, feature extraction, and recognition. Additionally, the 'Benchmark' folder includes the comprehensive implementation and reproduction of the five state-of-the-art methods compared in this study.
+
 
