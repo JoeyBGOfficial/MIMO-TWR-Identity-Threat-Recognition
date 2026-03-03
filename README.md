@@ -27,6 +27,19 @@ This repository is the open source code for my latest work: "MIMO Through-the-Wa
 
 All source code in the repository is well-structured, extensively commented, and thoroughly debugged. With MATLAB R2025a or later installed, the scripts are designed to be executed in one click.
 
-"The 'SimH_Set' folder contains the complete pipeline for simulation modeling, data processing, feature extraction, and recognition. The 'RW_Set' folder provides the full workflow for real-world data processing, feature extraction, and recognition. Additionally, the 'Benchmark' folder includes the comprehensive implementation and reproduction of the five state-of-the-art methods compared in this study.
+The 'SimH_Set' folder contains the complete pipeline for simulation modeling, data processing, feature extraction, and recognition. The 'RW_Set' folder provides the full workflow for real-world data processing, feature extraction, and recognition. Additionally, the 'Benchmark' folder includes the comprehensive implementation and reproduction of the five state-of-the-art methods compared in this study.
+
+By following the steps outlined below, the exact results presented in this paper can be seamlessly reproduced:
+
+(1) Download the whole repository and unzip. Add the entire repository to the MATLAB search path.
+
+(2) Enter 'SimH_Set' folder.
+
+(3) Run the following scripts in sequence. Please follow the sequence below strictly! Each script should only be run after the previous one has finished executing: "SimH_Dataset_Generator_PSNR.m" -> "SimH_Dataset_Generator_TRGS.m" -> "SimH_Dataset_Merging.m" -> "SimH_Riemann_Featureset_Generator.m". Once the execution is complete, your MATLAB workspace should appear as shown below:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f9892a47-ec19-4300-a841-250a8c54f083" />
+Fig. 2. The MATLAB workspace screenshot after running all the simulated dataset generator codes.
+
+(4) Run "SimH_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically. At this point, we believe that you should be able to obtain results that are identical to those presented in the paper.
 
 
