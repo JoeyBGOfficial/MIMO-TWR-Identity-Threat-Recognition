@@ -20,4 +20,8 @@ This repository is the open source code for my latest work: "MIMO Through-the-Wa
 
 [1] (Upon Reviewing...)
 
+![Stickman_3D](https://github.com/user-attachments/assets/eea5611b-01fa-492b-ba6f-479f112c37da)
+Fig. 1. MIMO TWR human identity-threat recognition.
+
+## II. HOW TO REPRODUCE
 
