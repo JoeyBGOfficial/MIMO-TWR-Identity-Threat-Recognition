@@ -9,7 +9,6 @@
 **We fully trust our peer community and welcome the use of our open-source code for one-click verification, ensuring the reproducibility of the reported results in our paper.**
 
 ![Stickman_3D](https://github.com/user-attachments/assets/eea5611b-01fa-492b-ba6f-479f112c37da)
-Fig. 1. MIMO TWR human identity-threat recognition.
 
 ### Basic Information:
 
@@ -38,7 +37,6 @@ By following the steps outlined below, the exact results presented in this paper
 (3) Run the following scripts in sequence. Please follow the sequence below strictly! Each script should only be run after the previous one has finished executing: "SimH_Dataset_Generator_PSNR.m" -> "SimH_Dataset_Generator_TRGS.m" -> "SimH_Dataset_Merging.m" -> "SimH_Riemann_Featureset_Generator.m". Once the execution is complete, your MATLAB workspace should appear as shown below:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f9892a47-ec19-4300-a841-250a8c54f083" />
-Fig. 2. The MATLAB workspace screenshot after running all the simulated dataset generator codes.
 
 (4) Run "SimH_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically. We believe that you should be able to obtain results that are identical to those presented in the paper.
 
