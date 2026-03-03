@@ -40,6 +40,8 @@ By following the steps outlined below, the exact results presented in this paper
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f9892a47-ec19-4300-a841-250a8c54f083" />
 Fig. 2. The MATLAB workspace screenshot after running all the simulated dataset generator codes.
 
-(4) Run "SimH_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically. At this point, we believe that you should be able to obtain results that are identical to those presented in the paper.
+(4) Run "SimH_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically. We believe that you should be able to obtain results that are identical to those presented in the paper.
 
+P.S. Due to team contributions and intellectual property considerations, the raw radar echo data will not be made public. However, processed image datasets will be added to the repository upon the paper's acceptance. We remain confident that the real-world results are fully reproducible in one click. Furthermore, preliminary tests conducted on various internal systems and scenarios demonstrate that our results are consistent and not an artifact of any specific dataset.
 
+## III. HOW TO REPRODUCE
