@@ -48,6 +48,6 @@ P.S. Due to team contributions and intellectual property considerations, the raw
 
 **(1) Environment Issues:** The project consists of mostly MATLAB code. The recommended MATLAB version is R2025a and above. The program is executed by the CPU environment, but GPU version is also provided.
 
-**(3) Algorithm Design Issues:** This work addresses a pioneering scientific problem. By benchmarking against several state-of-the-art methods reproduced from related studies on TWR HAR, we demonstrate that our proposed approach consistently outperforms existing methods by over 10% in recognition accuracy.
+**(3) Algorithm Design Issues:** This work addresses a pioneering scientific problem. By benchmarking against several state-of-the-art methods reproduced from other sub-fileds on TWR HAR, we demonstrate that our proposed approach consistently outperforms existing methods by over 10% in recognition accuracy.
 
 **(4) Right Issues: ⭐Considering intellectual property and the hard work of many team members, this work only open-sources my code and visualization results, not the real-world raw data. Additionally, this project is strictly for learning purposes only. Any direct use for paper submissions, patents, or commercialization must receive our consent!⭐**
