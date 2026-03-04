@@ -1,6 +1,4 @@
-![MIMO](https://github.com/user-attachments/assets/34d8c3d1-c440-4046-9e3f-e92d3302e1f3)
-
-# MIMO TWR Identity Threat Recognition
+![MIMO](https://github.com/user-attachments/assets/2d7dee34-9bb9-4058-8f55-a09276574534)
 
 ## I. INTRODUCTION
 
