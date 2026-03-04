@@ -29,7 +29,7 @@ All source code in the repository is well-structured, extensively commented, and
 
 The 'SimH_Set' folder contains the complete pipeline for simulation modeling, data processing, feature extraction, and recognition. The 'RW_Set' folder provides the full workflow for real-world data processing, feature extraction, and recognition. Additionally, the 'Benchmark' folder includes the comprehensive implementation and reproduction of the five state-of-the-art methods compared in this study.
 
-**By following the steps outlined below, the exact simulated results presented in this paper can be immediately reproduced:**
+**⭐By following the steps outlined below, the exact simulated results presented in this paper can be immediately reproduced:⭐**
 
 (1) Download the whole repository and unzip. Add the entire repository to the MATLAB search path.
 
@@ -55,7 +55,7 @@ The 'SimH_Set' folder contains the complete pipeline for simulation modeling, da
 \
 (6) Run "SimH_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically.
 
-**By following the steps outlined below, the exact measured results presented in this paper can be immediately reproduced:**
+**⭐By following the steps outlined below, the exact measured results presented in this paper can be immediately reproduced:⭐**
 
 (1) Download the whole repository and unzip. Add the entire repository to the MATLAB search path.
 
