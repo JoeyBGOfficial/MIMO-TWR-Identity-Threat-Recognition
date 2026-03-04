@@ -55,6 +55,15 @@ The 'SimH_Set' folder contains the complete pipeline for simulation modeling, da
 \
 (4) Run "SimH_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically.
 
+**By following the steps outlined below, the exact measured results presented in this paper can be seamlessly reproduced:**
+
+(1) Download the whole repository and unzip. Add the entire repository to the MATLAB search path.
+
+(2) Enter 'RW_Set' folder.
+
+(3) Download all the image-based dataset from this link: . Unzip the downloaded RW_Set.rar file to the current folder. There should be four image dataset folders in 'RW_Set' path: RW_RTM_Set, RW_DTM_Set, RW_RDM_Set, and RW_Feature_Set. Make sure your MATLAB workspace appear as shown below:
+\
+\
 
 
 ## III. SOME THINGS TO NOTE
