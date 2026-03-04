@@ -47,13 +47,13 @@ The 'SimH_Set' folder contains the complete pipeline for simulation modeling, da
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fc51358-485c-4917-905e-4eafbfba9304" />
 \
 \
-(3) After the installing is completed, run the following scripts in sequence. Please follow the sequence below strictly! Each script should only be run after the previous one has finished executing: "SimH_Dataset_Generator_PSNR.m" -> "SimH_Dataset_Generator_TRGS.m" -> "SimH_Dataset_Merging.m" -> "SimH_Riemann_Featureset_Generator.m". Once the execution is complete, your MATLAB workspace should appear as shown below:
+(5) After the installing is completed, run the following scripts in sequence. Please follow the sequence below strictly! Each script should only be run after the previous one has finished executing: "SimH_Dataset_Generator_PSNR.m" -> "SimH_Dataset_Generator_TRGS.m" -> "SimH_Dataset_Merging.m" -> "SimH_Riemann_Featureset_Generator.m". Once the execution is complete, your MATLAB workspace should appear as shown below:
 \
 \
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f9892a47-ec19-4300-a841-250a8c54f083" />
 \
 \
-(4) Run "SimH_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically.
+(6) Run "SimH_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically.
 
 **By following the steps outlined below, the exact measured results presented in this paper can be seamlessly reproduced:**
 
@@ -64,7 +64,22 @@ The 'SimH_Set' folder contains the complete pipeline for simulation modeling, da
 (3) Download all the image-based dataset from this link: . Unzip the downloaded RW_Set.rar file to the current folder. There should be four image dataset folders in 'RW_Set' path: RW_RTM_Set, RW_DTM_Set, RW_RDM_Set, and RW_Feature_Set. Make sure your MATLAB workspace appear as shown below:
 \
 \
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/00e707cd-6474-49e3-9478-204664180ff1" />
+\
+\
+(4) Open 'Home' -> 'Add-Ons' -> 'Explore Add-Ons'.
+\
+\
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ee969ae2-58aa-4463-81c1-99bc807e6c4b" />
+\
+\
+(5) Search 'Deep Learning ToolboxTM Model for Xception Network' and install the model.
+\
+\
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fc51358-485c-4917-905e-4eafbfba9304" />
+\
+\
+(6) After the installing is completed, run the following scripts in sequence. Please follow the sequence below strictly! Each script should only be run after the previous one has finished executing: "SimH_Dataset_Generator_PSNR.m" -> "SimH_Dataset_Generator_TRGS.m" -> "SimH_Dataset_Merging.m" -> "SimH_Riemann_Featureset_Generator.m". Once the execution is complete, your MATLAB workspace should appear as shown below:
 
 ## III. SOME THINGS TO NOTE
 
