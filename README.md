@@ -1,4 +1,4 @@
-# MIMO-TWR-Identity-Threat-Recognition
+# MIMO TWR Identity Threat Recognition
 
 ## I. INTRODUCTION
 
