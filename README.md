@@ -79,7 +79,7 @@ The 'SimH_Set' folder contains the complete pipeline for simulation modeling, da
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fc51358-485c-4917-905e-4eafbfba9304" />
 \
 \
-(6) After the installing is completed, run the following scripts in sequence. Please follow the sequence below strictly! Each script should only be run after the previous one has finished executing: "SimH_Dataset_Generator_PSNR.m" -> "SimH_Dataset_Generator_TRGS.m" -> "SimH_Dataset_Merging.m" -> "SimH_Riemann_Featureset_Generator.m". Once the execution is complete, your MATLAB workspace should appear as shown below:
+(6) After the installing is completed, run 'RW_Recognition_Model.m'. When all the models are trained and validated, the figures will be generated automatically.
 
 ## III. SOME THINGS TO NOTE
 
