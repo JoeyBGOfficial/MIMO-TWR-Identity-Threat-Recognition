@@ -2,6 +2,20 @@
 
 # MIMO TWR Identity Threat Recognition
 
+<p align="center">
+  <a href="https://www.semanticscholar.org/author/Weicheng-Gao/2051685234">
+    <img src="https://img.shields.io/badge/Semantic_Scholar-464EB8?style=for-the-badge&logo=semanticscholar&logoColor=white" alt="Semantic Scholar"/>
+  </a>
+  
+  <a href="https://joeybgofficial.github.io/">
+    <img src="https://img.shields.io/badge/Personal_Homepage-252525?style=for-the-badge&logo=github&logoColor=white" alt="Personal Homepage"/>
+  </a>
+  
+  <a href="https://ieeexplore.ieee.org/author/37089574449">
+    <img src="https://img.shields.io/badge/IEEE-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE"/>
+  </a>
+</p>
+
 ## I. INTRODUCTION
 
 ### Write Sth. Upfront
