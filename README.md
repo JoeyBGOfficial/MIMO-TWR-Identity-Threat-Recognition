@@ -7,7 +7,8 @@
 **Through-the-Wall Radar (TWR) Human Activity Recognition (HAR) represents a cutting-edge field in pattern recognition research.** By extracting micro-Doppler signature of indoor targets under conditions of penetration, low signal-to-noise ratio, low resolution, and multipath effects, this field enables precise analysis of human motion states in completely sheltered spaces, providing robust technical support for urban security surveillance. However, existing works have only focused on classifying different activities exhibited by the same individual, without exploring more refined topics such as personnel identification and threat identification, thus limiting its practical value. **This work is the first known effort to achieve simultaneous recognition of human identity and threat assessment in completely sheltered spaces using TWR.** We hope this will provide a groundbreaking, high-quality, and systematic research for our peers!
 
 **We fully trust our peer community and welcome the use of our open-source code for one-click verification, ensuring the reproducibility of the reported results in our paper.**
-
+\
+\
 ![Stickman_3D](https://github.com/user-attachments/assets/eea5611b-01fa-492b-ba6f-479f112c37da)
 
 ### Basic Information:
@@ -28,19 +29,33 @@ All source code in the repository is well-structured, extensively commented, and
 
 The 'SimH_Set' folder contains the complete pipeline for simulation modeling, data processing, feature extraction, and recognition. The 'RW_Set' folder provides the full workflow for real-world data processing, feature extraction, and recognition. Additionally, the 'Benchmark' folder includes the comprehensive implementation and reproduction of the five state-of-the-art methods compared in this study.
 
-By following the steps outlined below, the exact results presented in this paper can be seamlessly reproduced:
+**By following the steps outlined below, the exact simulated results presented in this paper can be seamlessly reproduced:**
 
 (1) Download the whole repository and unzip. Add the entire repository to the MATLAB search path.
 
 (2) Enter 'SimH_Set' folder.
 
-(3) Run the following scripts in sequence. Please follow the sequence below strictly! Each script should only be run after the previous one has finished executing: "SimH_Dataset_Generator_PSNR.m" -> "SimH_Dataset_Generator_TRGS.m" -> "SimH_Dataset_Merging.m" -> "SimH_Riemann_Featureset_Generator.m". Once the execution is complete, your MATLAB workspace should appear as shown below:
-
+(3) Open 'Home' -> 'Add-Ons' -> 'Explore Add-Ons'.
+\
+\
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ee969ae2-58aa-4463-81c1-99bc807e6c4b" />
+\
+\
+(4) Search 'Deep Learning ToolboxTM Model for Xception Network' and install the model.
+\
+\
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fc51358-485c-4917-905e-4eafbfba9304" />
+\
+\
+(3) After the installing is completed, run the following scripts in sequence. Please follow the sequence below strictly! Each script should only be run after the previous one has finished executing: "SimH_Dataset_Generator_PSNR.m" -> "SimH_Dataset_Generator_TRGS.m" -> "SimH_Dataset_Merging.m" -> "SimH_Riemann_Featureset_Generator.m". Once the execution is complete, your MATLAB workspace should appear as shown below:
+\
+\
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f9892a47-ec19-4300-a841-250a8c54f083" />
-
+\
+\
 (4) Run "SimH_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically.
 
-P.S. Due to team contributions and intellectual property considerations, the raw radar echo data will not be made public. However, processed image datasets will be added to the repository upon the paper's acceptance. We remain confident that the real-world results are fully reproducible in one click. Furthermore, preliminary tests conducted on various internal systems and scenarios demonstrate that our results are consistent and not an artifact of any specific dataset.
+
 
 ## III. SOME THINGS TO NOTE
 
