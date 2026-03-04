@@ -79,7 +79,7 @@ The 'SimH_Set' folder contains the complete pipeline for simulation modeling, da
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fc51358-485c-4917-905e-4eafbfba9304" />
 \
 \
-(6) After the installing is completed, run 'RW_Recognition_Model.m'. When all the models are trained and validated, the figures will be generated automatically.
+(6) After the installing is completed, run "RW_Recognition_Model.m". When all the models are trained and validated, the figures will be generated automatically.
 
 ## III. SOME THINGS TO NOTE
 
