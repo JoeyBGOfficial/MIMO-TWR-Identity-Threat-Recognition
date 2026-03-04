@@ -83,7 +83,7 @@ The 'SimH_Set' folder contains the complete pipeline for simulation modeling, da
 
 ## III. SOME THINGS TO NOTE
 
-**(1) Environment Issues:** The project consists of mostly MATLAB code. The recommended MATLAB version is R2025a and above. The program is executed by the CPU environment, but GPU version is also provided.
+**(1) Environment Issues:** The project consists of pure MATLAB code. The recommended MATLAB version is R2025a and above. The program is executed by the CPU environment, but GPU version is also provided. The key innovation of this paper, including all the signal processing, feature augmentation, and feature representation scripts are written by me. The network model of this paper is written and debugged by Gemini 3 Pro.
 
 **(3) Algorithm Design Issues:** This work addresses a pioneering scientific problem. By benchmarking against several state-of-the-art methods reproduced from other sub-fileds on TWR HAR, we demonstrate that our proposed approach consistently outperforms existing methods by over 10% in recognition accuracy.
 
