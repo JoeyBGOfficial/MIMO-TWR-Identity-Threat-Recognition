@@ -15,7 +15,9 @@
 **We fully trust our peer community and welcome the use of our open-source code for one-click verification, ensuring the reproducibility of the reported results in our paper.**
 \
 \
-![Stickman_3D](https://github.com/user-attachments/assets/eea5611b-01fa-492b-ba6f-479f112c37da)
+![1](https://github.com/user-attachments/assets/474711ee-f0cf-4139-8bb6-52cd8f32a456)
+
+![2](https://github.com/user-attachments/assets/af4d5d0c-ccd4-4ef4-bcb2-e835d0dc0735)
 
 ### Basic Information:
 
