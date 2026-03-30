@@ -21,7 +21,7 @@
 
 ### Basic Information:
 
-This repository is the open source code for my latest work: "MIMO Through-the-Wall Radar Identity-Threat Recognition via Multi-Channel Fusion and Riemannian Micro-Doppler Representation", submitted to IEEE TPAMI.
+This repository is the open source code for my latest work: "MIMO Through-the-Wall Radar Identity-Threat Recognition via Multi-Channel Fusion and Riemannian Micro-Doppler Representation", submitted to IEEE IoT.
 
 **My Email:** JoeyBG@126.com;
 
